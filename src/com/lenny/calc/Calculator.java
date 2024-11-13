@@ -115,7 +115,7 @@ public class Calculator implements ActionListener {
 
   // 主方法
   public static void main(String[] args) {
-    Calculator calc = new Calculator();
+     new Calculator();
   }
 
   //  这是 ActionListener 接口中必须实现的 actionPerformed 方法。每当与用户界面相关的组件发生动作事件（如按钮被点击）时，这个方法就会被调用。当前是一个空的实现，意味着当事件发生时，没有任何操作会被执行。这里通常会添加处理事件的代码，如执行计算、更新界面等。
